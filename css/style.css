@@ -27,6 +27,32 @@
     scroll-behavior: smooth;
 }
 
+ .container {
+    /* outline: 4px solid red; */
+    width: 1100px;
+
+    
+}
+
+
+
+
+
+header {
+    z-index: 999;
+    height: 90px;
+    outline: 2px solid #ededed;
+    background: #003d9b;
+    color: #fff;
+    box-shadow: 5px 5Px 13px rgba(128, 128, 128, 0.293);
+    text-align: center;    
+}
+
+
+
+
+
+
 
 
 #doctors {
@@ -46,7 +72,6 @@
 }
 
 #doctors .container {
-    /* outline: 5px solid red; */
     height: 1020px;
     width: 1100px;
     display: flex;
@@ -54,10 +79,6 @@
     justify-content: center;
     padding: 2%;
     position: absolute;
-}
-
-#doctors .doctors {
-    /* outline: 5px solid red; */
 }
 
 #doctors .doctor-text {
@@ -69,14 +90,83 @@
 }
 
 #doctors .doctor-text img {
-    width: 110%;
+    width: 165%;
     position: relative;
-    transform: translateY(40%);
+    transform: translateY(10%);
+    left: -35px;
 }
 
 #doctors .doctor-img img {
-    width: 170%;
+    width: 220%;
     position: relative;
-    top: -280px;
-    right: 140px;
+    top: -450px;
+    right: 160px;
 }
+
+
+
+
+
+
+
+
+#time {
+    /* outline: 5px solid red; */
+    height: 1880px;
+    background-image: url("../images/time_bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: auto;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#time .container {
+    width: 1100px;
+    height: 700px;
+    margin: auto;
+    display: block;
+}
+
+#time .container img {
+    margin: auto;
+    display: block;
+}
+
+#time .time_content {
+    margin-top: 70px;
+}
+
+#time .map {
+    margin-top: 80px;
+    height: 800px;
+    box-shadow: 17px 17px #003e9bd3;
+}
+
+#time .text {
+    margin-top: 500px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top:-20px;
+}
+
+
+
+
+
+
+
+
+footer {
+    height: 100px;
+    width: auto;
+}
+
+
+
