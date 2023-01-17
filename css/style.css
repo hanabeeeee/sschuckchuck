@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li, ol, ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  table {
+    border-collapse:collapse;
+    border-spacing: 0;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+}
+
+
+
+#doctors {
+    /* outline: 5px solid red; */
+    background-image: url("../images/doctor_bg.jpg");
+    background-attachment:scroll;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 1020px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: auto;
+    position: relative;
+}
+
+#doctors .container {
+    /* outline: 5px solid red; */
+    height: 1020px;
+    width: 1100px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding: 2%;
+    position: absolute;
+}
+
+#doctors .doctors {
+    /* outline: 5px solid red; */
+}
+
+#doctors .doctor-text {
+    width: 50%;
+}
+
+#doctors .doctor-img {
+    width: 50%;
+}
+
+#doctors .doctor-text img {
+    width: 110%;
+    position: relative;
+    transform: translateY(40%);
+}
+
+#doctors .doctor-img img {
+    width: 170%;
+    position: relative;
+    top: -280px;
+    right: 140px;
+}
