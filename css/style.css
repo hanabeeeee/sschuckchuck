@@ -47,10 +47,9 @@
 header {
     z-index: 999;
     height: 90px;
-    outline: 2px solid #ededed;
+    /* outline: 2px solid #ededed; */
     background: #003d9b;
-    color: #fff;
-    box-shadow: 5px 5Px 13px rgba(128, 128, 128, 0.293);
+    box-shadow: 5px 5Px 20px rgba(128, 128, 128, 0.568);
     width: auto;
     position: relative;
     display: flex;
