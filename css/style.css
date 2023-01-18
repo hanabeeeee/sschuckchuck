@@ -249,6 +249,7 @@ header img {
 #center .call_con:hover i {
     font-size: 56px;
     transition: 0.1s;
+    top: 5px;
 }
 
 
@@ -267,6 +268,7 @@ header img {
 #center .pax_con:hover i {
     font-size: 56px;
     transition: 0.1s;
+    top: 5px;
 }
 
 
@@ -281,6 +283,7 @@ header img {
 #center .kakao_con:hover i {
     font-size: 56px;
     transition: 0.1s;
+    top: 5px;
 }
 
 #center .kakao_con:hover h5 {
@@ -303,6 +306,7 @@ header img {
 #center .blog_con:hover i {
     font-size: 56px;
     transition: 0.1s;
+    top: 5px;
 }
 
 
