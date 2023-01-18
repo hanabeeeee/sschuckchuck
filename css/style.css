@@ -35,7 +35,7 @@
     width: 1100px;
 }
 
-body {
+ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -173,6 +173,145 @@ header img {
 
 
 
+#center {
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#center .container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#center .center_con {
+    /* outline: 2px solid red; */
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    
+}
+
+#center .container .center_div {
+    width: 100px;
+    height: 100px;
+    background: #003d9b;
+    text-align: center;
+    border-radius: 100%;
+    position: relative;
+    left: 44px;
+}
+
+#center .container div i {
+    font-size: 50px;
+    position: relative;
+    top: 5px;
+    color: #fff;
+}
+
+#center .center_con p {
+    color: rgb(95, 95, 95);
+    font-size: 16px;
+}
+
+#center .center_con h5 {
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+#center hr {
+    height: 30%;
+    position: relative;
+    top: 55px;
+    opacity: 0.5;
+}
+
+
+/**hover*/
+#center .call_con:hover .center_div {
+    background: #f7941d;
+}
+
+#center .call_con:hover p {
+    color: #f7941d;
+}
+
+#center .call_con:hover h5 {
+    color: #f7941d;
+}
+
+#center .call_con:hover i {
+    font-size: 56px;
+    transition: 0.1s;
+}
+
+
+#center .pax_con:hover .center_div {
+    background: #f7941d;
+}
+
+#center .pax_con:hover p {
+    color: #f7941d;
+}
+
+#center .pax_con:hover h5 {
+    color: #f7941d;
+}
+
+#center .pax_con:hover i {
+    font-size: 56px;
+    transition: 0.1s;
+}
+
+
+#center .kakao_con:hover .center_div {
+    background: #f7941d;
+}
+
+#center .kakao_con:hover p {
+    color: #f7941d;
+}
+
+#center .kakao_con:hover i {
+    font-size: 56px;
+    transition: 0.1s;
+}
+
+#center .kakao_con:hover h5 {
+    color: #f7941d;
+}
+
+
+#center .blog_con:hover .center_div {
+    background: #f7941d;
+}
+
+#center .blog_con:hover p {
+    color: #f7941d;
+}
+
+#center .blog_con:hover h5 {
+    color: #f7941d;
+}
+
+#center .blog_con:hover i {
+    font-size: 56px;
+    transition: 0.1s;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -183,7 +322,8 @@ footer {
     display: flex;
     justify-content: center;
     justify-items: center;
-    border-top: 1px solid #ccc;
+    /* border-top: 1px solid rgb(83, 83, 83); */
+    background: #f0f0f0;
 
 }
 
