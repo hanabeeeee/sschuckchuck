@@ -37,6 +37,9 @@
 
  body {
     font-family: 'Noto Sans KR', sans-serif;
+    background-image: url("../images/time_bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -65,9 +68,18 @@ header img {
 
 
 
+
+
+
+
+
+/************mainVisual*********/
+
+
 #main_visual {
     width: auto;
     height: 700px;
+    background: #fff;
     text-align: center;
 }
 
@@ -78,8 +90,14 @@ header img {
 
 
 
+/**********의료진소개********/
+
+
+
+
 #doctors {
     /* outline: 5px solid red; */
+    background: #fff;
     background-image: url("../images/doctor_bg.jpg");
     background-attachment:scroll;
     background-size:contain;
@@ -128,14 +146,101 @@ header img {
 
 
 
+/********dosu********/
 
 
+#dosu {
+    height: 700px;
+    background: #ccc;
+    text-align: center;
+
+}
+
+
+
+
+/***********interior**********/
+
+#interior {
+    height: 870px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: transparent;
+}
+
+#interior .swiper {
+    height: 850px;
+    width: 1100px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    
+}
+
+#interior .swiper h1 {
+    margin-top: -20px;
+    font-size: 48px;
+    margin-top: -10px;
+    font-weight: 600;
+    color: #f7941d;
+}
+
+#interior .swiper h5 {
+    color: rgb(29, 29, 29);
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#interior .swiper .swiper-wrapper {
+    width: 1100px;
+    height: 700px;
+}
+
+#interior .swiper-wrapper img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #fff;
+}
+
+#interior .swiper .swiper-slide {
+    position: relative;
+}
+
+#interior .swiper-pagination {
+    position: relative;
+    bottom: 35px;
+}
+
+#interior .swiper-pagination .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    opacity: 0.4;
+}
+
+#interior .swiper-pagination .swiper-pagination-bullet-active {
+    background: #f7941d;
+    width: 60px;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+
+
+
+
+/************time map**********/
 
 
 #time {
     /* outline: 5px solid red; */
     height: 2100px;
-    background-image: url("../images/time_bg.jpg");
+    /* background-image: url("../images/time_bg.jpg"); */
+    background: transparent;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -180,11 +285,15 @@ header img {
 
 
 
+
+/*************center************/
+
 #center {
     height: 200px;
     position: relative;
     display: flex;
     justify-content: center;
+    background: #fff;
 }
 
 #center .container {
@@ -322,7 +431,7 @@ header img {
 
 
 
-
+/************footer************/
 
 
 
