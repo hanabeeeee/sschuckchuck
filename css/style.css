@@ -167,6 +167,8 @@ header img {
     display: flex;
     justify-content: center;
     position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 #interior .swiper {
@@ -176,11 +178,6 @@ header img {
     position: relative;
     top: 30px;
     
-}
-
-#interior {
-    margin-top: 300px;
-    margin-bottom: 300px;
 }
 
 #interior .text h1 {
