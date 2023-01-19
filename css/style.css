@@ -179,10 +179,11 @@ header img {
 }
 
 #interior {
-    margin-top: 30px;
+    margin-top: 300px;
+    margin-bottom: 300px;
 }
 
-#interior h1 {
+#interior .text h1 {
     margin-top: -20px;
     text-align: center;
     font-size: 48px;
@@ -191,7 +192,7 @@ header img {
     color: #f7941d;
 }
 
-#interior  h5 {
+#interior .text h5 {
     color: rgb(29, 29, 29);
     text-align: center;
     font-weight: 300;
@@ -255,6 +256,7 @@ header img {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 200px;
 }
 
 #time .container {
