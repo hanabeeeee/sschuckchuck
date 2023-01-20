@@ -97,14 +97,13 @@ header img {
 
 #doctors {
     /* outline: 5px solid red; */
-    padding-top: 50px;
     background: #fff;
     background-image: url("../images/doctor_bg.jpg");
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    height: 1270px;
+    height: 1020px;
     display: flex;
     justify-items: center;
     justify-content: center;
