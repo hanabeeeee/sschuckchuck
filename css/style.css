@@ -97,7 +97,7 @@ header img {
 
 #doctors {
     /* outline: 5px solid red; */
-    padding-top: 250px;
+    padding-top: 50px;
     background: #fff;
     background-image: url("../images/doctor_bg.jpg");
     background-size:contain;
