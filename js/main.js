@@ -8,6 +8,30 @@ window.onload = function() {
   var interleaveOffset = 0.5;
 
   $(document).ready(function(){
+    const swiper_ = new Swiper('#main_visual .swiper', {
+      spaceBetween: 30,
+      centeredSlides: true,
+
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        
+        direction: 'horizontal',  // 효과
+        loop: true,
+
+        effect: 'slide',
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        
+      });
+});
+
+
+  $(document).ready(function(){
     const swiper = new Swiper('#interior .swiper', {
       spaceBetween: 30,
       centeredSlides: true,
@@ -32,12 +56,6 @@ window.onload = function() {
 });
 
 
-$('.swiper').on('mouseenter',function(){
-  swiper.autoplay.stop();
+gsap.to(".mainText", {
+  y:100
 });
-
-$('.swiper').on('mouseleave',function(){
-  swiper.autoplay.start();
-  
-});
-
