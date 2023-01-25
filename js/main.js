@@ -53,6 +53,37 @@ window.onload = function() {
         },
         
       });
+
+      $(document).ready(function(){
+
+        clientW = $("body").width();
+    
+       if(clientW == 1180){
+          $("#dosu .text h1").css("font-size","80px");
+          $("#dosu .text h5").css("font-size","40px");
+          $("#dosu .text").css("top","40px");
+
+          $("#interior .text h1").css("font-size","80px");
+          $("#interior .text h5").css("font-size","40px");
+          $("#interior .text").css("top","40px");
+
+          $("#time .time_text h1").css("font-size","80px");
+          $("#time .time_text h5").css("font-size","40px");
+          $("#time .time_text").css("top","120px");
+
+          $("header").css("height", "160px")
+          $("header img").css("width", "500px")
+          $("header img").css("top", "30px")
+
+          $("#main_visual").css("zoom", "1.5")
+          $("#main_visual").css("transform", "translateX(-17%)")
+
+
+
+       }
+    });
+      
+    
 });
 
 
