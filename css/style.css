@@ -192,7 +192,7 @@ header img {
     display: block;
     /* border-top: 7px solid #000; */
     background: #fff;
-    padding-top: 140px;
+    padding-top: 100px;
     position: relative;
     
     
@@ -207,7 +207,7 @@ header img {
     justify-items: center;
     width: 100%;
     flex-direction: column;
-    top: 150px;
+    top: 110px;
 
 }
 
