@@ -165,6 +165,82 @@ header img {
 
 
 
+/********진료항목*******/
+
+#list {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-image: url(../images/list_bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+ 
+#list .container {
+    /* outline: 3px solid #ededed; */
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    /* box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.263); */
+}
+
+#list .list_box {
+    background-position: center;
+    background-size: cover;
+    /* outline: 8px solid #fff; */
+    margin-left: 20px;
+    background: #020d115e;
+    text-align: center;
+    height: 500px;
+    width: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#list .list_box h1 {
+    color: #fff;
+    margin-top: 60px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    /* text-shadow: 1px 0 5px rgba(0, 0, 0, 0.5); */
+}
+
+#list .list_box p {
+    width: 100%;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 55%;
+    color: #fff;
+    font-weight: 100;
+}
+
+#list .list_box img {
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 27%;
+}
+
+.slick-dots {margin-top:10px;  padding: 0; text-align:center; display: flex; justify-content: center; justify-items: center;}
+.slick-dots li {display: block;margin-left: 4px; margin-right: 4px;}
+.slick-dots li.slick-active button {background-color: black;}
+.slick-dots li button {width:15px; height:15px; background-color: #999; border-radius: 50%; text-shadow: none; color: transparent;  border: none;  font: 0;}
+.slick-dots li :hover {background-color: black;}
+
+
+
 
 /********dosu********/
 

@@ -78,16 +78,88 @@ window.onload = function() {
           $("#main_visual img").css("magin", "auto")
           $("#main_visual").css("width", "100vw")
 
+          $("#list .list_box h1").css("font-size", "24px")
+          $("#list .list_box").css("width", "400px")
 
 
 
+          $('#list .container').slick({
+            dots: true,
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            responsive: [
+              {
+                breakpoint: 768,
+                settings: {
+                  arrows: true,
+                  centerMode: true,
+                  centerPadding: '40px',
+                  slidesToShow: 2
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: '40px',
+                  slidesToShow: 1
+                }
+              }
+            ]
+          });
+      
        }
+  
+      $('#list').slick('goTo', index);
     });
       
-    
+    $('#list .container').slick({
+      dots: true,
+      prevArrow: $('.prev'),
+      nextArrow: $('.next'),
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 4
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    if (slideIndex !== 0){
+      slideIndex--;
+    }
+
+    $('#list').slick('goTo', index);
 });
 
 
-gsap.to(".mainText", {
-  y:100
-});
+
