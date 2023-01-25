@@ -75,8 +75,9 @@ window.onload = function() {
           $("header img").css("width", "500px")
           $("header img").css("top", "30px")
 
-          $("#main_visual").css("zoom", "1.5")
-          $("#main_visual").css("transform", "translateX(-17%)")
+          $("#main_visual img").css("magin", "auto")
+          $("#main_visual").css("width", "100vw")
+
 
 
 
