@@ -88,6 +88,13 @@ window.onload = function() {
           $('#list .container').css("width", "100vw")
           $('#list .container img').css("zoom", "0.8")
           $('#list .container img').css("top", "200px")
+
+          $('#fixed_menu').css("width", "100px")
+          $('#fixed_menu').css("height", "100px")
+          $('#fixed_menu').css("right", "80px")
+          $('#fixed_menu').css("bottom", "50px")
+          $('#fixed_menu .material-symbols-outlined').css("font-size", "80px")
+          $('#fixed_menu .material-symbols-outlined').css("top", "10px")
        }
     });
       
@@ -133,3 +140,25 @@ window.onload = function() {
 
 
 
+
+// $(document).ready(function(){
+//   var currentPosition = parseInt($("#fixed_menu").css("top"));
+//   $(window).scroll(function() {
+//     var position = $(window).scrollTop(); 
+//     $("#fixed_menu").stop().animate({"top":position+currentPosition+"px"},2500);
+//   });
+// });
+
+
+$(function(){
+  // 스크롤 시 fixed_menu
+  $(document).on('scroll', function(){
+      if($(window).scrollTop() > 1000){
+          $("#fixed_menu").removeClass("deactive");
+          $("#fixed_menu").addClass("active");
+      }else{
+          $("#fixed_menu").removeClass("active");
+          $("#fixed_menu").addClass("deactive");
+      }
+  })
+});

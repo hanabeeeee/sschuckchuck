@@ -70,6 +70,49 @@ header img {
 
 
 
+/**********fixed_menu***********/
+
+#fixed_menu {
+    width: 50px;
+    height: 50px;
+    background: #f7941d;
+    /* position: absolute; */
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    z-index: 999;
+    /* overflow: hidden; */
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#fixed_menu .material-symbols-outlined {
+    position: relative;
+    top: 0px;
+    font-size: 48px;
+    color: #fff;
+}
+
+#fixed_menu.active{
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    -webkit-transition-duration:0.4s;
+    -webkit-transition-timing-function:ease;
+  }
+  
+  #fixed_menu.deactive{
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    -webkit-transition-duration:0.4s;
+    -webkit-transition-timing-function:ease;
+  }
+
+
+
 
 
 
