@@ -86,6 +86,7 @@ window.onload = function() {
           $('#list .container').css("zoom", "1.3")
           $('#list').css("overflow", "hidden")
           $('#list .container').css("width", "100vw")
+          $('#list .container img').css("zoom", "1.2")
        }
     });
       
