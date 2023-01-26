@@ -83,9 +83,9 @@ window.onload = function() {
           $("#list .list_box p").css("font-weight", "500")
 
 
-          $('#list .container').css("zoom", "2")
+          $('#list .container').css("zoom", "1.3")
           $('#list').css("overflow", "hidden")
-          $('#list').css("width", "100vw")
+          $('#list .container').css("width", "100vw")
        }
     });
       
