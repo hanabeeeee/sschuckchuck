@@ -80,45 +80,13 @@ window.onload = function() {
 
           $("#list .list_box h1").css("font-size", "24px")
           $("#list .list_box").css("width", "400px")
+          $("#list .list_box p").css("font-weight", "500")
 
 
-
-          $('#list .container').slick({
-            dots: true,
-            prevArrow: $('.prev'),
-            nextArrow: $('.next'),
-            centerMode: true,
-            centerPadding: '60px',
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 4000,
-            responsive: [
-              {
-                breakpoint: 768,
-                settings: {
-                  arrows: true,
-                  centerMode: true,
-                  centerPadding: '40px',
-                  slidesToShow: 2
-                }
-              },
-              {
-                breakpoint: 480,
-                settings: {
-                  arrows: false,
-                  centerMode: true,
-                  centerPadding: '40px',
-                  slidesToShow: 1
-                }
-              }
-            ]
-          });
-      
+          $('#list .container').css("zoom", "1.6")
+          $('#list').css("overflow", "hidden")
+          $('#list').css("width", "100vw")
        }
-  
-      $('#list').slick('goTo', index);
     });
       
     $('#list .container').slick({
