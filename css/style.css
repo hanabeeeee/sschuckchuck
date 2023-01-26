@@ -170,23 +170,44 @@ header img {
 
 #list {
     padding-bottom: 120px;
-    padding-top: 120px;
+    padding-top: 200px;
     position: relative;
     width: 100vw;
     display: flex;
     justify-content: center;
     justify-items: center;
     background-image: url(../images/list_bg.jpg);
+    background-attachment: scroll;
     background-position: center;
     background-size: cover;
+}
 
+#list .text {
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    flex-direction: column;
+    top: 90px;
+
+}
+
+#list .text h1 {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 48px;
+    margin-top: -10px;
+    font-weight: 600;
+    color: #f7941d;
 }
  
 #list .container {
     /* outline: 3px solid #ededed; */
-    width: 70vw;
+    width: 1100px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     justify-items: center;
     /* box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.263); */
@@ -200,7 +221,7 @@ header img {
     background: #020d115e;
     text-align: center;
     height: 500px;
-    width: auto;
+    width: 300px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -208,12 +229,21 @@ header img {
     padding: auto;
 }
 
+#list .list_box:last-child {
+    margin-right: 20px;
+}
+
 #list .list_box h1 {
+    width: 100%;
     color: #fff;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-size: 36px;
-    margin-bottom: 20px;
-    display: block;
+    /* margin-bottom: 20px; */
+    /* display: block; */
+    top: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     /* text-shadow: 1px 0 5px rgba(0, 0, 0, 0.5); */
 }
 
@@ -241,11 +271,11 @@ header img {
     top: 140px;
 }
 
-.slick-dots {margin-top:10px;  padding: 0; text-align:center; display: flex; justify-content: center; justify-items: center;}
+/* .slick-dots {margin-top:10px;  padding: 0; text-align:center; display: flex; justify-content: center; justify-items: center;}
 .slick-dots li {display: block;margin-left: 4px; margin-right: 4px;}
 .slick-dots li.slick-active button {background-color: black;}
 .slick-dots li button {width:15px; height:15px; background-color: #999; border-radius: 50%; text-shadow: none; color: transparent;  border: none;  font: 0;}
-.slick-dots li :hover {background-color: black;}
+.slick-dots li :hover {background-color: black;} */
 
 
 

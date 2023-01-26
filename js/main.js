@@ -61,7 +61,7 @@ window.onload = function() {
        if(clientW == 1180){
           $("#dosu .text h1").css("font-size","80px");
           $("#dosu .text h5").css("font-size","40px");
-          $("#dosu .text").css("top","40px");
+          $("#dosu .text").css("top","60px");
 
           $("#interior .text h1").css("font-size","80px");
           $("#interior .text h5").css("font-size","40px");
@@ -75,59 +75,60 @@ window.onload = function() {
           $("header img").css("width", "500px")
           $("header img").css("top", "30px")
 
-          $("#main_visual img").css("magin", "auto")
-          $("#main_visual").css("width", "100vw")
 
           $("#list .list_box h1").css("font-size", "24px")
-          $("#list .list_box").css("width", "400px")
-          $("#list .list_box p").css("font-weight", "500")
+          $("#list .list_box h1").css("top", "70px")
+          $("#list .list_box").css("width", "300px")
+          $("#list .list_box").css("zoom", "1.5")
+          $("#list .text h1").css("font-size","80px");
+          $("#list .text").css("top", "50px")
 
 
-          $('#list .container').css("zoom", "1.3")
-          $('#list').css("overflow", "hidden")
+
           $('#list .container').css("width", "100vw")
-          $('#list .container img').css("zoom", "1.2")
+          $('#list .container img').css("zoom", "0.8")
+          $('#list .container img').css("top", "200px")
        }
     });
       
-    $('#list .container').slick({
-      dots: true,
-      prevArrow: $('.prev'),
-      nextArrow: $('.next'),
-      centerMode: true,
-      centerPadding: '60px',
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      infinite: true,
-      autoplay: true,
-      autoplaySpeed: 5000,
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            arrows: true,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 4
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 1
-          }
-        }
-      ]
-    });
+    // $('#list .container').slick({
+    //   dots: true,
+    //   prevArrow: $('.prev'),
+    //   nextArrow: $('.next'),
+    //   centerMode: true,
+    //   centerPadding: '60px',
+    //   slidesToShow: 3,
+    //   slidesToScroll: 1,
+    //   infinite: true,
+    //   autoplay: true,
+    //   autoplaySpeed: 5000,
+    //   responsive: [
+    //     {
+    //       breakpoint: 768,
+    //       settings: {
+    //         arrows: true,
+    //         centerMode: true,
+    //         centerPadding: '40px',
+    //         slidesToShow: 4
+    //       }
+    //     },
+    //     {
+    //       breakpoint: 480,
+    //       settings: {
+    //         arrows: false,
+    //         centerMode: true,
+    //         centerPadding: '40px',
+    //         slidesToShow: 1
+    //       }
+    //     }
+    //   ]
+    // });
 
-    if (slideIndex !== 0){
-      slideIndex--;
-    }
+    // if (slideIndex !== 0){
+    //   slideIndex--;
+    // }
 
-    $('#list').slick('goTo', index);
+    // $('#list').slick('goTo', index);
 });
 
 
