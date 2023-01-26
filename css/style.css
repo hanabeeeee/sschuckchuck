@@ -86,6 +86,7 @@ header img {
 
 #main_visual img {
     width: 100%;
+    display: block;
 }
 
 #main_visual .swiper-wrapper {
@@ -183,7 +184,7 @@ header img {
  
 #list .container {
     /* outline: 3px solid #ededed; */
-    width: 60vw;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +209,7 @@ header img {
 
 #list .list_box h1 {
     color: #fff;
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 36px;
     margin-bottom: 20px;
     /* text-shadow: 1px 0 5px rgba(0, 0, 0, 0.5); */
@@ -220,7 +221,7 @@ header img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 55%;
+    top: 60%;
     color: #fff;
     font-weight: 100;
 }
@@ -230,7 +231,7 @@ header img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 27%;
+    top: 25%;
 }
 
 .slick-dots {margin-top:10px;  padding: 0; text-align:center; display: flex; justify-content: center; justify-items: center;}
