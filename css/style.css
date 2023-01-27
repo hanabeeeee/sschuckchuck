@@ -37,9 +37,6 @@
 
  body {
     font-family: 'Noto Sans KR', sans-serif;
-    background-image: url("../images/time_bg.jpg");
-    background-position: center;
-    background-attachment: fixed;
     overflow-x: hidden;
 }
 
@@ -535,8 +532,8 @@ header .container .call p {
 
 #time {
     height: 2100px;
-    /* background-image: url("../images/time_bg.jpg"); */
-    background: transparent;
+    background-image: url("../images/time_bg.jpg");
+    /* background: transparent; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
