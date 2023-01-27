@@ -51,7 +51,7 @@ header {
     z-index: 999;
     height: 90px;
     /* outline: 2px solid #ededed; */
-    background: #003d9b;
+    background: #fff;
     box-shadow: 5px 5Px 20px rgba(51, 51, 51, 0.568);
     width: 100vw;
     position: relative;
@@ -59,11 +59,30 @@ header {
     justify-content: center;
 }
 
-header img {
+header .container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+    position: relative;
+}
+
+header .container .logo {
     display: block;
     margin: auto;
-    position: relative;
-    top:15px;
+}
+
+header .container .call {
+    position: absolute;
+    right: 0;
+    top: 24px;
+    font-size: 24px;
+}
+
+header .container .call a {
+    color: #004898;
+    font-weight: 800;
+    letter-spacing: -0.06em;
 }
 
 
@@ -163,20 +182,22 @@ header img {
 #doctors {
     /* outline: 5px solid red; */
     background: #fff;
-    background-image: url("../images/doctor_bg.jpg");
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
     overflow: hidden;
-    height: 1020px;
+    height: 1170px;
     display: flex;
     justify-items: center;
     justify-content: center;
     width: 100vw;
     position: relative;
+    padding-top: 150px;
+    border-bottom: 5px solid #004898;
 }
 
 #doctors .container {
+    background-image: url("../images/doctor_bg.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 1020px;
     display: flex;
     justify-items: center;
@@ -203,8 +224,25 @@ header img {
 #doctors .doctor-img img {
     width: 120%;
     position: relative;
-    top: -40px;
+    top: -31px;
     right: -120px;
+}
+
+#doctors .text {
+    z-index: 999;
+    position: absolute;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    top: 80px;
+    text-align: center;
+}
+
+#doctors .text h1 {
+    font-size: 48px;
+    margin-top: -10px;
+    font-weight: 600;
+    color: #f7941d;
 }
 
 
@@ -223,6 +261,7 @@ header img {
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
+    border-bottom: 5px solid #004898;
 }
 
 #list .text {
@@ -381,13 +420,17 @@ header img {
 /***********interior**********/
 
 #interior {
-    height: 870px;
+    height: 1150px;
     width: 100vw;
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 150px;
-    margin-bottom: 20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    /* border-bottom: 2px solid #000; */
+    background-image: url(../images/time_bg2.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 #interior .swiper {
