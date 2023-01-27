@@ -120,7 +120,7 @@ header .container .call p {
     right: 30px;
     bottom: 20px;
     z-index: 999;
-    /* overflow: hidden; */
+    overflow: hidden;
     text-align: center;
     border-radius: 100%;
     cursor: pointer;
@@ -544,7 +544,7 @@ header .container .call p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #time .container {
