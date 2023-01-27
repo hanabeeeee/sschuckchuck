@@ -439,9 +439,10 @@ header .container .call p {
 }
 
 #dosu img {
-    width: 100%;
-    display: block;
-    position: relative;
+    display:block;
+	position:relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -533,7 +534,7 @@ header .container .call p {
 
 
 #time {
-    height: 2100px;
+    height: 2200px;
     background-image: url("../images/time_bg.jpg");
     /* background: transparent; */
     background-attachment: fixed;
@@ -582,10 +583,10 @@ header .container .call p {
 }
 
 #time .container img {
-    width: 160%;
+    width: 200%;
     display: block;
     position: relative;
-    right: 350px;
+    right: 550px;
     bottom: -50px;
 }
 

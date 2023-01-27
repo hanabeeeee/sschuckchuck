@@ -100,7 +100,7 @@ window.onload = function() {
 
 
 
-          $('#list .container').css("width", "100vw")
+          $('#list .container').css("width", "90vw")
           $('#list .container img').css("zoom", "0.8")
           $('#list .container img').css("top", "200px")
 
