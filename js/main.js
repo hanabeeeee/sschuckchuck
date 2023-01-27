@@ -73,13 +73,23 @@ window.onload = function() {
           $("#time .time_text h5").css("font-size","40px");
           $("#time .time_text").css("top","120px");
 
+          $("#doctors").css("height","1250px");
           $("#doctors .text h1").css("font-size","80px");
+          $("#doctors .text h5").css("font-size","40px");
+          $("#doctors .container").css("bottom","0px");
 
           $("header").css("height", "160px")
-          $("header img").css("width", "500px")
-          $("header img").css("top", "30px")
-          $("header a").css("font-size", "36px")
-          $("header .call").css("top", "50px")
+          $("header .logo img").css("width", "500px")
+          $("header .kakao").css("width", "120px")
+          $("header .kakao").css("top", "30px")
+          $("header .logo").css("top", "30px")
+          $("header .logo").css("left", "490px")
+          $("header .call p").css("font-size", "42px")
+          $("header .call span").css("font-size", "36px")
+          $("header .call").css("line-height", "30px")
+          $("header .call").css("top", "38px")
+          $("header .logo img").css("width", "500px")
+          $("header .logo").css("top", "30px")
 
           $("#list .list_box h1").css("font-size", "24px")
           $("#list .list_box h1").css("top", "70px")
