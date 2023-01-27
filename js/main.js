@@ -106,7 +106,7 @@ window.onload = function() {
 
           $('#fixed_menu').css("width", "100px")
           $('#fixed_menu').css("height", "100px")
-          $('#fixed_menu').css("right", "80px")
+          $('#fixed_menu').css("right", "20px")
           $('#fixed_menu').css("bottom", "50px")
           $('#fixed_menu .material-symbols-outlined').css("font-size", "80px")
           $('#fixed_menu .material-symbols-outlined').css("top", "10px")
