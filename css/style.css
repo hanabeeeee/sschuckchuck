@@ -108,7 +108,6 @@
 
 
 
-
 #main_visual {
     margin-top: -100px;
     z-index: 1;
@@ -133,8 +132,7 @@
     display: block;
   }
   
-.cnt {
-    display: block; overflow: hidden;}
+.cnt {display: block; overflow: hidden;}
   
 .cnt img{
     display:block;
