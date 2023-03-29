@@ -139,3 +139,40 @@
     position:relative;
     left: 50%;
     transform: translateX(-50%);}
+
+
+
+
+    /**interior***/
+
+    .interior {
+        background-image: url(../images/images\ \(4\).jpg);
+        background-size: cover;
+        background-position: center;
+        height: 980px;
+        /* display: flex; */
+        align-items: center;
+
+    }
+
+    .swiper {
+        width: 800px;
+        height: 400px;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+        top: 350px;
+        display: flex;
+    }
+
+
+
+    .map {
+        position: relative;
+    }
+    .kakaomap {
+        position: absolute;
+        top: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
