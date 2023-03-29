@@ -39,18 +39,26 @@
     <script src="./js/main.js"></script>
 </head>
 <body>
-    <div class="header">
+    <div id="header" class="header">
         <div class="container">
             <div class="logo"><a href="http://www.sschuckchuck.com/" target="_blank"><img src="./images/logo.png" alt="로고"></a></div>
             <div class="texts">
-                <div><a href="#">삼성척척 소개</a></div>
-                <div><a href="#">진료과목</a></div>
-                <div><a href="#">도수치료</a></div>
-                <div><a href="#">원내사진</a></div>
-                <div><a href="#">진료시간 및 위치안내</a></div>
+                <div><a href="#subject">진료과목</a></div>
+                <div><a href="#about">의료진 소개</a></div>
+                <div><a href="#hello">인사말</a></div>
+                <div><a href="#dosu">시그니처치료</a></div>
+                <div><a href="#interior">둘러보기</a></div>
+                <div><a href="#map">오시는길</a></div>
             </div>
             <div class="call"><p><a href="tel:02-6095-2010">상담문의</a></p></div>
         </div><!--container-->
+    </div><!--header-->
+
+
+    <div id="menu">
+        <a href="#header"><div class="menu top"><i class="bi bi-arrow-up"></i></div></a>
+        <a href="http://pf.kakao.com/_xoiUCK"><div class="menu kakao"><img src="./images/kakao.png" style="width: 70px;" alt="카카오"></i></div></a>
+        <a href="https://blog.naver.com/sschuckchuck"><div class="menu blog"><img src="./images/blog.png" style="width: 60px;" alt="블로그"></i></div></a>
     </div>
 
 
@@ -62,12 +70,12 @@
 
     <div class="wrap">
         <div class="cnt">
-            <img src="./images/images (3).jpg" alt="진료과목">
-            <img src="./images/images (1).jpg" alt="원장">
-            <img src=" ./images/images (2).jpg" alt="소개">
-            <img src="./images/images (5).jpg" alt="도수치료">
+            <img id="subject" src="./images/images (3).jpg" alt="진료과목">
+            <img id="about" src="./images/images (1).jpg" alt="원장">
+            <img id="hello" src=" ./images/images (2).jpg" alt="소개">
+            <img id="dosu" src="./images/images (5).jpg" alt="도수치료">
 
-            <div class="interior">
+            <div id="interior" class="interior">
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="./images/interior (1).jpg" alt=""></div>
@@ -79,14 +87,31 @@
                 </div><!--swiper-->
             </div>
 
-            <div class="map">
+            <div id="map" class="map">
                 <img src="./images/map.jpg" alt="">
-                <div class="kakaomap">
-                    <a href="https://map.kakao.com/?urlX=464580&urlY=1128175&urlLevel=2&map_type=TYPE_MAP&map_hybrid=false" target="_blank"><img width="700" height="420"
-                        src="https://map2.daum.net/map/mapservice?FORMAT=PNG&SCALE=1.25&MX=464580&MY=1128175&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" style="border:1px solid #ccc"></a><strong style="float: left;"></strong><a style="font-size:12px;text-decoration:none;float:left;height:15px;padding-top:1px;line-height:15px;color:#000" target="_blank" href="https://map.kakao.com/?urlX=464580&urlY=1128175&urlLevel=2&map_type=TYPE_MAP&map_hybrid=false"></a></div>            
-                </div>
+                <div id="" class="kakaomap">
+                    <!-- * 카카오맵 - 지도퍼가기 -->
+                    <!-- 1. 지도 노드 -->
+                    <div id="daumRoughmapContainer1680073714250" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                    <!--
+                        2. 설치 스크립트
+                        * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                    -->
+                    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                    <!-- 3. 실행 스크립트 -->
+                    <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                            "timestamp" : "1680073714250",
+                            "key" : "2e9hd",
+                            "mapWidth" : "1100",
+                            "mapHeight" : "600"
+                        }).render();
+                    </script>                
+                    </div>
             </div><!--map-->
-            <img src="./images/footer.jpg" alt="">
+            <img src="./images/footer.jpg" alt="" style="border-top: 1px solid #ccc;">
          </div><!--cnt-->        
         </div>
 </body>
