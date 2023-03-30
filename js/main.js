@@ -4,6 +4,7 @@ $(document).ready(function(){
 
    if(clientW == 1180){
       $("#main_visual").css("height","900px");
+      $("#menu").css("zoom","1.6")
    }
 });
 
